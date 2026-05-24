@@ -43,7 +43,7 @@
 				</ul>
 			</nav>
  
-			<div id="main">
+			<main id="main">
 
 				<section id="intro" class="main">
 					<div class="spotlight">
@@ -373,7 +373,7 @@
 				<div class="nas-footer-bottom">
 					<p class="nas-acknowledgement">Nosham Arts Society acknowledges and pays respect to the Traditional Owners of the land on which Nosham University operates. This land always was, and always will be, Aboriginal Land.</p>
 					<p class="copyright">&copy; Nosham Arts Society 2026. Template: <a href="https://html5up.net">HTML5 UP</a> (Stellar by @ajlkn).</p>
-				</div>
+				</main>
  
 			</footer>
  
@@ -386,6 +386,10 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+		    var vp = document.querySelector('meta[name="viewport"]');
+		    if (vp) vp.setAttribute('content', 'width=device-width, initial-scale=1, maximum-scale=5');
+		</script>
  
 	</body>
 </html>
